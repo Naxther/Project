@@ -1,0 +1,149 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="BookStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ITBook" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="book">
+                <xs:complexType>
+                  <xs:sequence>
+                  	<xs:element name="main_info">
+                  		<xs:complexType>
+                  			<xs:choice maxOccurs="unbounded" minOccurs="0">
+                   				<xs:element name="main_author">
+									<xs:complexType>
+                        				<xs:simpleContent>
+                        					<xs:extension base="xs:string">
+                         	 					  <xs:attribute type="xs:string" name="Name" use="optional"/>
+                         					 </xs:extension>
+                        				</xs:simpleContent>
+                   					</xs:complexType>
+                    			</xs:element>
+                   				<xs:element name="others_authors">
+									<xs:complexType>
+                      				  <xs:simpleContent>
+                         				 <xs:extension base="xs:string">
+                          					  <xs:attribute type="xs:string" name="Name" use="optional"/>
+                        				  </xs:extension>
+                      				  </xs:simpleContent>
+                    				</xs:complexType>
+                    			</xs:element>
+                    			<xs:element type="xs:string" name="title"/>
+                    		</xs:choice>
+                	</xs:complexType>
+             	</xs:element>
+               	<xs:element name="additional_info_about_book">
+               		<xs:complexType>	
+               			<xs:choice maxOccurs="unbounded" minOccurs="0">
+               				 <xs:element type="xs:string" name="distributor"/>
+                  			 <xs:element type="xs:string" name="weight"/>
+                  			 <xs:element name="size">
+									<xs:complexType>
+                      				  <xs:simpleContent>
+                         				 <xs:extension base="xs:string">
+                          					  <xs:attribute type="xs:string" name="l_w_h" use="optional"/>
+                        				  </xs:extension>
+                      				  </xs:simpleContent>
+                    				</xs:complexType>
+                    		</xs:element>
+                    		<xs:element type="xs:string" name="genre"/>
+                    		<xs:element type="xs:string" name="isbn"/>
+               			</xs:choice>
+               		</xs:complexType>
+               	</xs:element>
+               	<xs:element name="shop_info">
+               		<xs:complexType>	
+               			<xs:choice maxOccurs="unbounded" minOccurs="0">
+               				<xs:element ref="price"/>
+							<xs:element ref="number_of_pages"/>
+							<xs:element ref="hometown"/>
+							<xs:element ref="available"/>
+							<xs:element ref="pdf"/>
+							<xs:element ref="hand_version"/>
+							<xs:element ref="English_only"/>
+							<xs:element ref="publish_date">
+									<xs:complexType>
+                      				  <xs:simpleContent>
+                         				 <xs:extension base="xs:string">
+                          					  <xs:attribute type="xs:string" name="format" use="optional"/>
+                        				  </xs:extension>
+                      				  </xs:simpleContent>
+                    				</xs:complexType>
+                    		</xs:element>
+							<xs:element ref="skill_required"/>
+							<xs:element ref="tag"/>
+             		    </xs:choice>
+                	</xs:complexType>
+           		</xs:element>
+           		<xs:element name="shop_info">
+               		<xs:complexType>	
+               			<xs:choice maxOccurs="unbounded" minOccurs="0">
+               				<xs:element ref="obtainable"/>
+							<xs:element ref="number_of_sources"/>
+							<xs:element ref="special_treatment"/>
+               			</xs:choice>
+               		</xs:complexType>
+               	</xs:element>
+               </xs:sequence>
+           </xs:complexType>
+       </xs:element>
+   </xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+	<xs:simpleType name="pdf">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="available">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="hand_version">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="English_only">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="obtainable">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="special_treatment">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Yes"/>
+			<xs:enumeration value="No"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="skill_required">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Basic"/>
+			<xs:enumeration value="Basic+"/>
+			<xs:enumeration value="Advanced"/>
+			<xs:enumeration value="Advanced+"/>
+			<xs:enumeration value="Pro"/>
+			<xs:enumeration value="Pro+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="isbn">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{13}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>
