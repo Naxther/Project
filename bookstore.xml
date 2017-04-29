@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore_element.xsl"?>
+<BookStore>
+	<ITbooks>
+	<book id="1">
+		<main_info>
+			<main_author Name="second_first">Cookson Aram</main_author> 
+			<others_authors Name="second_first">Dowlingsoka Ryan<others_authors>
+			<title>Sam's teach yourself Unreal Engine 4 game development in 24 hours</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Transworld Publishers Ltd</distributor>
+			<weight>244</weight>
+			<size l_w_h="length_width_height">230x179x45</size>
+	  		<genre>3D Graphics</genre>
+	  		<isbn>0672337622</isbn>
+	    </additional_info_about_book>
+	    <shop_info>
+	  		<price>1299</price> 
+	  		<number_of_pages>459</number_of_pages>
+	  		<available>Yes</available>
+	  		<pdf>Yes</pdf>
+	  		<hand_version>Yes</hand_version>
+	  		<English_only>Yes</English_only>
+	  		<publish_date format="YYYY">2002</publish_date>
+	  		<skill_required>Basic+</skill_required>
+	  		<tag>3D Graphics</tag>
+	    </shop_info>
+	    <additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>4</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="2">
+		<main_info>
+			<main_author name="second_first">De la Flor Mike</main_author> 
+			<others_authors name="second_first">Mongeon Bridgette</others_authors>
+			<title>Digital sculpting with Mudbox: essential tools and techniques for artists</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Focal Press</distributor>
+			<weight>303</weight>
+			<size l_w_h="length_width_height">144x180x50</size>
+		  	<genre>3D Graphics</genre>
+		  	<isbn>9780240812038</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+		  	<price>999</price> 
+		  	<number_of_pages>350</number_of_pages>
+		  	<pdf>No</pdf>
+		  	<hand_version>Yes</hand_version>
+		  	<English_only>Yes</English_only>
+		  	<publish_date format="YYYY">2010</publish_date>
+		  	<skill_required>Pro</skill_required>
+		  	<tag>Mudbox</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>4</number_of_sources>
+	    	<special_treatment>Yes</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="3">
+		<main_info>
+			<main_author name="second_first">Gortler Steven</main_author> 
+			<others_authors name="second_first"></others_authors>
+			<title>Foundations of 3D computer graphics</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Cambridge MA MTI Press</distributor>
+			<weight>268</weight>
+			<size l_w_h="length_width_height">250x190x50</size>
+		  	<genre>History, 3D Graphics</genre>
+		  	<isbn>9780262017350</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+	 	 	<price>1999</price> 
+	 	 	<number_of_pages>800</number_of_pages>
+	 	 	<available>Yes</available>
+	 	 	<pdf>No</pdf>
+	 	 	<hand_version>Yes</hand_version>
+	 	 	<English_only>Yes</English_only>
+	 	 	<publish_date format="YYYY">2012</publish_date>
+	 	 	<skill_required>Basic</skill_required>
+		  	<tag>History 3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>1</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="4">
+		<main_info>
+			<main_author name="second_first">Jones Stewart</main_author> 
+			<others_authors name="second_first"></others_authors>
+			<title>Sams teach yourself 3Ds Max in 24 hours</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Cambridge MA MTI Press</distributor>
+			<weight>185</weight>
+			<size l_w_h="length_width_height">230x180x30</size>
+	 	 	<genre>3D Graphics</genre>
+	 	 	<isbn>0672336995</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+	 	 	<price>599</price> 
+	 	 	<number_of_pages>204</number_of_pages>
+	  		<available>Yes</available>
+	  		<pdf>Yes</pdf>
+	  		<hand_version>No</hand_version>
+	  		<English_only>No</English_only>
+	 	 	<publish_date format="YYYY">2009</publish_date>
+		  	<skill_required>Pro</skill_required>
+	 	 	<tag>3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>7</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="5">
+		<main_info>
+			<main_author name="second_first">Kermanikian Ara</main_author> 
+			<others_authors name="second_first"></others_authors>
+			<title>Introducing Mudbox</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Indianapolis Willey</distributor>
+			<weight>274</weight>
+			<size l_w_h="length_width_height">235x175x60</size>
+		  	<genre>3D Graphics</genre>
+		  	<isbn>9780470537251</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+	 	 	<price>649</price> 
+	 	 	<number_of_pages>350</number_of_pages>
+	 	 	<available>No</available>
+	 	 	<pdf>No</pdf>
+	 	 	<hand_version>Yes</hand_version>
+	 	 	<English_only>No</English_only>
+	 	 	<publish_date format="YYYY">2010</publish_date>
+	 	 	<skill_required>Advanced</skill_required>
+		  	<tag>3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>6</number_of_sources>
+	    	<special_treatment>Yes</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="6">
+		<main_info>
+			<main_author name="second_first">Kříž Jan</main_author> 
+			<others_authors name="second_first"></others_authors>
+			<title>Mistrovství v 3DS Max</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Computer Press</distributor>
+			<weight>188</weight>
+			<size l_w_h="length_width_height">240x180x20</size>
+		  	<genre>3D Graphics</genre>
+	  		<isbn>9788025124642</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+	 	 	<price>199</price> 
+	 	 	<number_of_pages>150</number_of_pages>
+	 	 	<available>Yes</available>
+	 	 	<pdf>Yes</pdf>
+	 	 	<hand_version>Yes</hand_version>
+	 	 	<English_only>No</English_only>
+	 	 	<publish_date format="YYYY">2010</publish_date>
+		  	<skill_required>Basic</skill_required>
+		  	<tag>3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>No</obtainable>
+	    	<number_of_sources>0</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="7">
+		<main_info>
+			<main_author name="second_first">Naas Paul</main_author> 
+			<others_authors name="second_first"></others_authors>
+			<title>Autesk Maya 2014</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Essentials</distributor>
+			<weight>240</weight>
+			<size l_w_h="length_width_height">270x123x47</size>
+		  	<genre>3D Graphics</genre>
+		  	<isbn>9781118575079</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+		  	<price>879</price> 
+		  	<number_of_pages>753</number_of_pages>
+		  	<available>No</available>
+		  	<pdf>No</pdf>
+		  	<hand_version>Yes</hand_version>
+		  	<English_only>Yes</English_only>
+		  	<publish_date format="YYYY">2013</publish_date>
+		  	<skill_required>Advanced+</skill_required>
+		  	<tag>3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>1</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="8">
+		<main_info>
+			<main_author name="second_first">Palamar Todd</main_author> 
+			<others_authors name="second_first"></others_authors>
+			<title>Mastering Autodesk Maya 2015</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Indianapolis</distributor>
+			<weight>222</weight>
+			<size l_w_h="length_width_height">235x175x60</size>
+		  	<genre>3D Graphics</genre>
+		  	<isbn>9781118862513</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+	  		<price>1499</price> 
+	  		<number_of_pages>890</number_of_pages>
+	  		<available>Yes</available>
+	  		<pdf>Yes</pdf>
+	  		<hand_version>Yes</hand_version>
+	  		<English_only>No</English_only>
+	  		<publish_date format="YYYY">2015</publish_date>
+	  		<skill_required>Pro+</skill_required>
+	  		<tag>3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>2</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+
+	<book id="9">
+		<main_info>
+			<main_author name="second_first">Sanders John</main_author> 
+			<others_authors name="second_first">Andrew Christopher</others_authors>
+			<title>An Introduction to Unreal Engine 4</title> 
+		</main_info>
+		<additional_info_about_book>
+			<distributor>Focal Press INC</distributor>
+			<weight>302</weight>
+			<size l_w_h="length_width_height">235x175x35</size>
+	  		<genre>3D Graphics</genre>
+	  	<isbn>97814976091</isbn>
+	  	</additional_info_about_book>
+	    <shop_info>
+	  		<price>799</price> 
+	  		<number_of_pages>325</number_of_pages>
+	  		<available>Yes</available>
+	  		<pdf>No</pdf>
+	  		<hand_version>Yes</hand_version>
+	  		<English_only>Yes</English_only>
+	  		<publish_date format="YYYY">2010</publish_date>
+	  		<skill_required>Basic+</skill_required>
+	  		<tag>3D Graphics</tag>
+		</shop_info>
+		<additional_shop_info>
+	    	<obtainable>Yes</obtainable>
+	    	<number_of_sources>3</number_of_sources>
+	    	<special_treatment>No</special_treatment>
+	   	</additional_shop_info>
+	</book>
+	<ITbooks>
+</BookStore>
